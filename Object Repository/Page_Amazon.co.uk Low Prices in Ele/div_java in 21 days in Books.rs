@@ -4,17 +4,23 @@
    <name>div_java in 21 days in Books</name>
    <tag></tag>
    <elementGuidId>5bda9f62-36cf-417a-8981-a35046bf97df</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Java in 21 Days, Sams Teach Yourself (Covering Java 8)' or . = 'Java in 21 Days, Sams Teach Yourself (Covering Java 8)')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -74,7 +80,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>java in 21 days in Books</value>
+      <value>Java in 21 Days, Sams Teach Yourself (Covering Java 8)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

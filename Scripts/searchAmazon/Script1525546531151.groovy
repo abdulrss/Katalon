@@ -26,9 +26,9 @@ WebUI.navigateToUrl('https://www.amazon.co.uk/')
 
 WebUI.setText(findTestObject('Page_Amazon.co.uk Low Prices in Ele/input_field-keywords'), 'Java in 21 days')
 
-WebUI.click(findTestObject('Page_Amazon.co.uk Low Prices in Ele/div_java in 21 days in Books'))
-
 WebUI.click(findTestObject('Page_Amazon.co.uk java in 21 days B/h2_Java in 21 Days Sams Teach'))
+
+WebUI.click(findTestObject('Page_Amazon.co.uk Low Prices in Ele/div_java in 21 days in Books'))
 
 WebUI.click(findTestObject('Page_Java in 21 Days Sams Teach You/input_submit.add-to-cart'))
 
