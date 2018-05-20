@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="searchTestSuite" time="103" tests="1" failures="1" errors="0">
+   <testsuite name="searchTestSuite" tests="1" failures="1" errors="0" time="103" timestamp="2018-05-19 14:34:34" hostname="abdul - LAPTOP-4FQQCFFD.Home" id="Test Suites/searchTestSuite">
+      <properties>
+         <property name="deviceName" value="HUAWEI BKL-L09 (Android 8.0.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\abdul\\Katalon Studio\\Katalon Project\\Reports\\searchTestSuite\\20180519_143431"/>
+         <property name="logFiles" value="C:\\Users\\abdul\\Katalon Studio\\Katalon Project\\Reports\\searchTestSuite\\20180519_143431\\appium.log, C:\\Users\\abdul\\Katalon Studio\\Katalon Project\\Reports\\searchTestSuite\\20180519_143431\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="abdul - LAPTOP-4FQQCFFD.Home"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.0"/>
+         <property name="sessionId" value="2da0f83c-9c9a-4d67-9721-2346d7927054"/>
+         <property name="deviceId" value="M2HDU18305002992"/>
+         <property name="deviceName" value="HUAWEI BKL-L09 (Android 8.0.0)"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="deviceOSVersion" value="8.0.0"/>
+         <property name="platform" value="Windows 10"/>
+         <property name="browser" value="Chrome 66.0.3359.158"/>
+         <property name="deviceModel" value="BKL-L09"/>
+         <property name="hostAddress" value="192.168.0.42"/>
+         <property name="deviceManufacturer" value="HUAWEI"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+      </properties>
+      <testcase name="Test Cases/searchAmazon" classname="Test Cases/searchAmazon" status="PASSED">
+         <system-out><![CDATA[2018-05-19 14:34:34 - [TEST_CASE][PASSED] - Test Cases/searchAmazon: Test Cases/searchAmazon
+
+2018-05-19 14:34:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-19 14:35:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-19 14:35:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.amazon.co.uk/' successfully
+
+2018-05-19 14:35:06 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.co.uk/' successfully
+
+2018-05-19 14:35:06 - [TEST_STEP][PASSED] - setText: Text 'Java in 21 days' is set on object 'Object Repository/Page_Amazon.co.uk Low Prices in Ele/input_field-keywords'
+
+2018-05-19 14:35:07 - [MESSAGE][PASSED] - Text 'Java in 21 days' is set on object 'Object Repository/Page_Amazon.co.uk Low Prices in Ele/input_field-keywords'
+
+2018-05-19 14:35:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Amazon.co.uk java in 21 days B/h2_Java in 21 Days Sams Teach' is clicked on
+
+2018-05-19 14:35:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon.co.uk java in 21 days B/h2_Java in 21 Days Sams Teach' is clicked on
+
+2018-05-19 14:35:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Amazon.co.uk Low Prices in Ele/div_java in 21 days in Books' is clicked on
+
+2018-05-19 14:35:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon.co.uk Low Prices in Ele/div_java in 21 days in Books' is clicked on
+
+2018-05-19 14:35:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Java in 21 Days Sams Teach You/input_submit.add-to-cart' is clicked on
+
+2018-05-19 14:35:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Java in 21 Days Sams Teach You/input_submit.add-to-cart' is clicked on
+
+2018-05-19 14:35:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Amazon.co.uk Shopping Basket/span_32.99' is clicked on
+
+2018-05-19 14:35:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon.co.uk Shopping Basket/span_32.99' is clicked on
+
+2018-05-19 14:35:19 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Amazon.co.uk Shopping Basket/span_32.99' is present
+
+2018-05-19 14:35:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-19 14:35:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Amazon.co.uk Shopping Basket/span_32.99' is present
+
+2018-05-19 14:35:19 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-19 14:35:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/searchGoogle" classname="Test Cases/searchGoogle" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'Java in 21 days' of object 'Object Repository/searchGoogle/Page_Google/input_q' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=66.0.3359.158)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-4FQQCFFD', ip: '192.168.0.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: HUAWEI BKL-L09 (Android 8.0.0), newCommandTimeout: 1800, platform: ANDROID, platformName: Android, udid: M2HDU18305002992}, deviceManufacturer: HUAWEI, deviceModel: BKL-L09, deviceName: M2HDU18305002992, deviceScreenSize: 1080x2160, deviceUDID: M2HDU18305002992, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, platform: ANDROID, platformName: ANDROID, platformVersion: 8.0.0, takesScreenshot: true, udid: M2HDU18305002992, warnings: {}, webStorageEnabled: false}
+Session ID: 2da0f83c-9c9a-4d67-9721-2346d7927054
+*** Element info: {Using=xpath, value=//*[@name = 'q' and @type = 'text']})"/>
+         <system-out><![CDATA[2018-05-19 14:35:22 - [TEST_CASE][FAILED] - Test Cases/searchGoogle: Test Cases/searchGoogle FAILED because (of) Unable to set text 'Java in 21 days' of object 'Object Repository/searchGoogle/Page_Google/input_q' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=66.0.3359.158)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-4FQQCFFD', ip: '192.168.0.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: HUAWEI BKL-L09 (Android 8.0.0), newCommandTimeout: 1800, platform: ANDROID, platformName: Android, udid: M2HDU18305002992}, deviceManufacturer: HUAWEI, deviceModel: BKL-L09, deviceName: M2HDU18305002992, deviceScreenSize: 1080x2160, deviceUDID: M2HDU18305002992, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, platform: ANDROID, platformName: ANDROID, platformVersion: 8.0.0, takesScreenshot: true, udid: M2HDU18305002992, warnings: {}, webStorageEnabled: false}
+Session ID: 2da0f83c-9c9a-4d67-9721-2346d7927054
+*** Element info: {Using=xpath, value=//*[@name = 'q' and @type = 'text']})
+
+2018-05-19 14:35:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-19 14:35:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-19 14:35:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.google.co.uk' successfully
+
+2018-05-19 14:35:46 - [MESSAGE][PASSED] - Navigate to 'https://www.google.co.uk' successfully
+
+2018-05-19 14:35:46 - [TEST_STEP][FAILED] - setText: Unable to set text 'Java in 21 days' of object 'Object Repository/searchGoogle/Page_Google/input_q' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=66.0.3359.158)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-4FQQCFFD', ip: '192.168.0.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: HUAWEI BKL-L09 (Android 8.0.0), newCommandTimeout: 1800, platform: ANDROID, platformName: Android, udid: M2HDU18305002992}, deviceManufacturer: HUAWEI, deviceModel: BKL-L09, deviceName: M2HDU18305002992, deviceScreenSize: 1080x2160, deviceUDID: M2HDU18305002992, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, platform: ANDROID, platformName: ANDROID, platformVersion: 8.0.0, takesScreenshot: true, udid: M2HDU18305002992, warnings: {}, webStorageEnabled: false}
+Session ID: 2da0f83c-9c9a-4d67-9721-2346d7927054
+*** Element info: {Using=xpath, value=//*[@name = 'q' and @type = 'text']})
+
+2018-05-19 14:36:15 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-05-19 14:36:15 - [MESSAGE][FAILED] - Unable to set text 'Java in 21 days' of object 'Object Repository/searchGoogle/Page_Google/input_q' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=66.0.3359.158)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-4FQQCFFD', ip: '192.168.0.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: HUAWEI BKL-L09 (Android 8.0.0), newCommandTimeout: 1800, platform: ANDROID, platformName: Android, udid: M2HDU18305002992}, deviceManufacturer: HUAWEI, deviceModel: BKL-L09, deviceName: M2HDU18305002992, deviceScreenSize: 1080x2160, deviceUDID: M2HDU18305002992, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, platform: ANDROID, platformName: ANDROID, platformVersion: 8.0.0, takesScreenshot: true, udid: M2HDU18305002992, warnings: {}, webStorageEnabled: false}
+Session ID: 2da0f83c-9c9a-4d67-9721-2346d7927054
+*** Element info: {Using=xpath, value=//*[@name = 'q' and @type = 'text']})]]></system-out>
+         <system-err><![CDATA[2018-05-19 14:35:22 - [TEST_CASE][FAILED] - Test Cases/searchGoogle: Test Cases/searchGoogle FAILED because (of) Unable to set text 'Java in 21 days' of object 'Object Repository/searchGoogle/Page_Google/input_q' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=66.0.3359.158)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-4FQQCFFD', ip: '192.168.0.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: HUAWEI BKL-L09 (Android 8.0.0), newCommandTimeout: 1800, platform: ANDROID, platformName: Android, udid: M2HDU18305002992}, deviceManufacturer: HUAWEI, deviceModel: BKL-L09, deviceName: M2HDU18305002992, deviceScreenSize: 1080x2160, deviceUDID: M2HDU18305002992, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, platform: ANDROID, platformName: ANDROID, platformVersion: 8.0.0, takesScreenshot: true, udid: M2HDU18305002992, warnings: {}, webStorageEnabled: false}
+Session ID: 2da0f83c-9c9a-4d67-9721-2346d7927054
+*** Element info: {Using=xpath, value=//*[@name = 'q' and @type = 'text']})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-19 14:34:34 - [TEST_SUITE][FAILED] - searchTestSuite: Test Cases/searchGoogle FAILED because (of) Unable to set text 'Java in 21 days' of object 'Object Repository/searchGoogle/Page_Google/input_q' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=66.0.3359.158)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-4FQQCFFD', ip: '192.168.0.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: HUAWEI BKL-L09 (Android 8.0.0), newCommandTimeout: 1800, platform: ANDROID, platformName: Android, udid: M2HDU18305002992}, deviceManufacturer: HUAWEI, deviceModel: BKL-L09, deviceName: M2HDU18305002992, deviceScreenSize: 1080x2160, deviceUDID: M2HDU18305002992, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, platform: ANDROID, platformName: ANDROID, platformVersion: 8.0.0, takesScreenshot: true, udid: M2HDU18305002992, warnings: {}, webStorageEnabled: false}
+Session ID: 2da0f83c-9c9a-4d67-9721-2346d7927054
+*** Element info: {Using=xpath, value=//*[@name = 'q' and @type = 'text']})]]></system-out>
+      <system-err><![CDATA[2018-05-19 14:34:34 - [TEST_SUITE][FAILED] - searchTestSuite: Test Cases/searchGoogle FAILED because (of) Unable to set text 'Java in 21 days' of object 'Object Repository/searchGoogle/Page_Google/input_q' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=66.0.3359.158)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-4FQQCFFD', ip: '192.168.0.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: HUAWEI BKL-L09 (Android 8.0.0), newCommandTimeout: 1800, platform: ANDROID, platformName: Android, udid: M2HDU18305002992}, deviceManufacturer: HUAWEI, deviceModel: BKL-L09, deviceName: M2HDU18305002992, deviceScreenSize: 1080x2160, deviceUDID: M2HDU18305002992, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, platform: ANDROID, platformName: ANDROID, platformVersion: 8.0.0, takesScreenshot: true, udid: M2HDU18305002992, warnings: {}, webStorageEnabled: false}
+Session ID: 2da0f83c-9c9a-4d67-9721-2346d7927054
+*** Element info: {Using=xpath, value=//*[@name = 'q' and @type = 'text']})]]></system-err>
+   </testsuite>
+</testsuites>

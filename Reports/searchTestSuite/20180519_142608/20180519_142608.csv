@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+searchTestSuite,Chrome 66.0.3359.158,,2018-05-19 14:26:10,2018-05-19 14:28:50,2m - 39.900s,FAILED
+,,,,,,
+Test Cases/searchAmazon,Chrome 66.0.3359.158,,2018-05-19 14:26:11,2018-05-19 14:26:43,31.946s,FAILED
+openBrowser,Chrome 66.0.3359.158,,2018-05-19 14:26:11,2018-05-19 14:26:43,31.352s,FAILED
+,,,,,,
+Test Cases/searchGoogle,Chrome 66.0.3359.158,,2018-05-19 14:26:43,2018-05-19 14:28:47,2m - 4.544s,FAILED
+openBrowser,Chrome 66.0.3359.158,,2018-05-19 14:26:43,2018-05-19 14:28:12,1m - 28.783s,PASSED
+navigateToUrl,Chrome 66.0.3359.158,,2018-05-19 14:28:12,2018-05-19 14:28:13,0.724s,PASSED
+setText,Chrome 66.0.3359.158,,2018-05-19 14:28:13,2018-05-19 14:28:47,34.742s,FAILED

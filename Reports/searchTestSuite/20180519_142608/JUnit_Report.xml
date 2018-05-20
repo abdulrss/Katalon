@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="searchTestSuite" time="159" tests="0" failures="2" errors="0">
+   <testsuite name="searchTestSuite" tests="0" failures="2" errors="0" time="159" timestamp="2018-05-19 14:26:10" hostname="abdul - LAPTOP-4FQQCFFD.Home" id="Test Suites/searchTestSuite">
+      <properties>
+         <property name="deviceName" value="HUAWEI BKL-L09 (Android 8.0.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\abdul\\Katalon Studio\\Katalon Project\\Reports\\searchTestSuite\\20180519_142608"/>
+         <property name="logFiles" value="C:\\Users\\abdul\\Katalon Studio\\Katalon Project\\Reports\\searchTestSuite\\20180519_142608\\appium.log, C:\\Users\\abdul\\Katalon Studio\\Katalon Project\\Reports\\searchTestSuite\\20180519_142608\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\abdul\\Katalon Studio\\Katalon Project\\Reports\\searchTestSuite\\20180519_142608\\1526736526803.png"/>
+         <property name="hostName" value="abdul - LAPTOP-4FQQCFFD.Home"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.0"/>
+         <property name="sessionId" value="374cac9a-d1bb-4530-8ecf-9b4784f00dd5"/>
+         <property name="deviceId" value="M2HDU18305002992"/>
+         <property name="deviceName" value="HUAWEI BKL-L09 (Android 8.0.0)"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="deviceOSVersion" value="8.0.0"/>
+         <property name="platform" value="Windows 10"/>
+         <property name="browser" value="Chrome 66.0.3359.158"/>
+         <property name="deviceModel" value="BKL-L09"/>
+         <property name="hostAddress" value="192.168.0.42"/>
+         <property name="deviceManufacturer" value="HUAWEI"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+      </properties>
+      <testcase name="Test Cases/searchAmazon" classname="Test Cases/searchAmazon" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)"/>
+         <system-out><![CDATA[2018-05-19 14:26:11 - [TEST_CASE][FAILED] - Test Cases/searchAmazon: Test Cases/searchAmazon FAILED because (of) Unable to open browser with url: '' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)
+
+2018-05-19 14:26:11 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)
+
+2018-05-19 14:26:43 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)]]></system-out>
+         <system-err><![CDATA[2018-05-19 14:26:11 - [TEST_CASE][FAILED] - Test Cases/searchAmazon: Test Cases/searchAmazon FAILED because (of) Unable to open browser with url: '' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/searchGoogle" classname="Test Cases/searchGoogle" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'Java in 21 days' of object 'Object Repository/searchGoogle/Page_Google/input_q' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/searchGoogle/Page_Google/input_q' located by 'By.xpath: //input[@id = 'lst-ib' and @name = 'q' and @title = 'Search' and @type = 'text']' not found)"/>
+         <system-out><![CDATA[2018-05-19 14:26:43 - [TEST_CASE][FAILED] - Test Cases/searchGoogle: Test Cases/searchGoogle FAILED because (of) Unable to set text 'Java in 21 days' of object 'Object Repository/searchGoogle/Page_Google/input_q' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/searchGoogle/Page_Google/input_q' located by 'By.xpath: //input[@id = 'lst-ib' and @name = 'q' and @title = 'Search' and @type = 'text']' not found)
+
+2018-05-19 14:26:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-19 14:28:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-19 14:28:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.google.co.uk' successfully
+
+2018-05-19 14:28:13 - [MESSAGE][PASSED] - Navigate to 'https://www.google.co.uk' successfully
+
+2018-05-19 14:28:13 - [TEST_STEP][FAILED] - setText: Unable to set text 'Java in 21 days' of object 'Object Repository/searchGoogle/Page_Google/input_q' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/searchGoogle/Page_Google/input_q' located by 'By.xpath: //input[@id = 'lst-ib' and @name = 'q' and @title = 'Search' and @type = 'text']' not found)
+
+2018-05-19 14:28:47 - [MESSAGE][FAILED] - Unable to set text 'Java in 21 days' of object 'Object Repository/searchGoogle/Page_Google/input_q' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/searchGoogle/Page_Google/input_q' located by 'By.xpath: //input[@id = 'lst-ib' and @name = 'q' and @title = 'Search' and @type = 'text']' not found)
+[[ATTACHMENT|C:\\Users\\abdul\\Katalon Studio\\Katalon Project\\Reports\\searchTestSuite\\20180519_142608\\1526736526803.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-19 14:26:43 - [TEST_CASE][FAILED] - Test Cases/searchGoogle: Test Cases/searchGoogle FAILED because (of) Unable to set text 'Java in 21 days' of object 'Object Repository/searchGoogle/Page_Google/input_q' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/searchGoogle/Page_Google/input_q' located by 'By.xpath: //input[@id = 'lst-ib' and @name = 'q' and @title = 'Search' and @type = 'text']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-19 14:26:10 - [TEST_SUITE][FAILED] - searchTestSuite: Test Cases/searchAmazon FAILED because (of) Unable to open browser with url: '' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)]]></system-out>
+      <system-err><![CDATA[2018-05-19 14:26:10 - [TEST_SUITE][FAILED] - searchTestSuite: Test Cases/searchAmazon FAILED because (of) Unable to open browser with url: '' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)]]></system-err>
+   </testsuite>
+</testsuites>

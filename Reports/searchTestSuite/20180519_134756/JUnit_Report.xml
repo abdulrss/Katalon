@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="searchTestSuite" time="32" tests="2" failures="0" errors="0">
+   <testsuite name="searchTestSuite" tests="2" failures="0" errors="0" time="32" timestamp="2018-05-19 13:47:58" hostname="abdul - LAPTOP-4FQQCFFD.Home" id="Test Suites/searchTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\abdul\\Katalon Studio\\Katalon Project\\Reports\\searchTestSuite\\20180519_134756"/>
+         <property name="logFiles" value="C:\\Users\\abdul\\Katalon Studio\\Katalon Project\\Reports\\searchTestSuite\\20180519_134756\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="abdul - LAPTOP-4FQQCFFD.Home"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="192.168.0.42"/>
+         <property name="sessionId" value="7f5fbd65587d905c58cabeb8ff3856b8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/searchAmazon" classname="Test Cases/searchAmazon" status="PASSED">
+         <system-out><![CDATA[2018-05-19 13:47:58 - [TEST_CASE][PASSED] - Test Cases/searchAmazon: Test Cases/searchAmazon
+
+2018-05-19 13:47:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-19 13:48:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-19 13:48:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.amazon.co.uk/' successfully
+
+2018-05-19 13:48:08 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.co.uk/' successfully
+
+2018-05-19 13:48:08 - [TEST_STEP][PASSED] - setText: Text 'Java in 21 days' is set on object 'Object Repository/Page_Amazon.co.uk Low Prices in Ele/input_field-keywords'
+
+2018-05-19 13:48:09 - [MESSAGE][PASSED] - Text 'Java in 21 days' is set on object 'Object Repository/Page_Amazon.co.uk Low Prices in Ele/input_field-keywords'
+
+2018-05-19 13:48:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Amazon.co.uk java in 21 days B/h2_Java in 21 Days Sams Teach' is clicked on
+
+2018-05-19 13:48:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon.co.uk java in 21 days B/h2_Java in 21 Days Sams Teach' is clicked on
+
+2018-05-19 13:48:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Amazon.co.uk Low Prices in Ele/div_java in 21 days in Books' is clicked on
+
+2018-05-19 13:48:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon.co.uk Low Prices in Ele/div_java in 21 days in Books' is clicked on
+
+2018-05-19 13:48:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Java in 21 Days Sams Teach You/input_submit.add-to-cart' is clicked on
+
+2018-05-19 13:48:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Java in 21 Days Sams Teach You/input_submit.add-to-cart' is clicked on
+
+2018-05-19 13:48:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Amazon.co.uk Shopping Basket/span_32.99' is clicked on
+
+2018-05-19 13:48:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon.co.uk Shopping Basket/span_32.99' is clicked on
+
+2018-05-19 13:48:16 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Amazon.co.uk Shopping Basket/span_32.99' is present
+
+2018-05-19 13:48:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-19 13:48:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Amazon.co.uk Shopping Basket/span_32.99' is present
+
+2018-05-19 13:48:16 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-19 13:48:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/searchGoogle" classname="Test Cases/searchGoogle" status="PASSED">
+         <system-out><![CDATA[2018-05-19 13:48:17 - [TEST_CASE][PASSED] - Test Cases/searchGoogle: Test Cases/searchGoogle
+
+2018-05-19 13:48:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-19 13:48:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-19 13:48:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.google.co.uk' successfully
+
+2018-05-19 13:48:23 - [MESSAGE][PASSED] - Navigate to 'https://www.google.co.uk' successfully
+
+2018-05-19 13:48:23 - [TEST_STEP][PASSED] - setText: Text 'Java in 21 days' is set on object 'Object Repository/searchGoogle/Page_Google/input_q'
+
+2018-05-19 13:48:23 - [MESSAGE][PASSED] - Text 'Java in 21 days' is set on object 'Object Repository/searchGoogle/Page_Google/input_q'
+
+2018-05-19 13:48:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/searchGoogle/Page_Google/div_java in 21 days' is clicked on
+
+2018-05-19 13:48:25 - [MESSAGE][PASSED] - Object: 'Object Repository/searchGoogle/Page_Google/div_java in 21 days' is clicked on
+
+2018-05-19 13:48:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/searchGoogle/Page_java in 21 days - Google Searc/a_Sams Teach Yourself Java in' is clicked on
+
+2018-05-19 13:48:28 - [MESSAGE][PASSED] - Object: 'Object Repository/searchGoogle/Page_java in 21 days - Google Searc/a_Sams Teach Yourself Java in' is clicked on
+
+2018-05-19 13:48:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/searchGoogle/Page_Sams Teach Yourself Java in 21/input_submit.add-to-cart-ubb' is clicked on
+
+2018-05-19 13:48:29 - [MESSAGE][PASSED] - Object: 'Object Repository/searchGoogle/Page_Sams Teach Yourself Java in 21/input_submit.add-to-cart-ubb' is clicked on
+
+2018-05-19 13:48:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/searchGoogle/Page_Amazon.co.uk Shopping Basket/span_15.41' is clicked on
+
+2018-05-19 13:48:29 - [MESSAGE][PASSED] - Object: 'Object Repository/searchGoogle/Page_Amazon.co.uk Shopping Basket/span_15.41' is clicked on
+
+2018-05-19 13:48:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/searchGoogle/Page_Amazon.co.uk Shopping Basket/span_15.41' is clicked on
+
+2018-05-19 13:48:29 - [MESSAGE][PASSED] - Object: 'Object Repository/searchGoogle/Page_Amazon.co.uk Shopping Basket/span_15.41' is clicked on
+
+2018-05-19 13:48:29 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-19 13:48:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-19 13:47:58 - [TEST_SUITE][PASSED] - searchTestSuite: Test Cases/searchGoogle]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
